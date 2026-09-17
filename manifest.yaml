@@ -1,0 +1,28 @@
+name: AI-SalesOS
+display_name: فروش‌یار ۳۶۰
+architecture:
+  task_state_owner: AI-SalesOS
+  providers_are_workers: true
+  handoff_schema: AI_TASK_HANDOFF_V1
+features:
+  - shared_memory
+  - compact_context
+  - resumable_tasks
+  - checkpointing
+  - automatic_provider_failover
+providers:
+  - openai
+  - gemini
+  - anthropic
+  - mock
+roadmap:
+  - postgres
+  - pgvector
+  - redis
+  - alembic
+  - auth_rbac
+  - crm
+  - omnichannel
+  - payments
+  - voice
+  - kubernetes
